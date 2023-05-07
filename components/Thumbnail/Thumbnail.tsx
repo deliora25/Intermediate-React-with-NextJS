@@ -12,6 +12,7 @@ const Thumbnail = ({ imgUrl }: Props) => {
       className="rounded-lg"
       fill
       src={imgUrl}
+      style={{ objectFit: "cover" }}
       alt="thumbnail"
     />
   );
